@@ -4,7 +4,7 @@ pygame.init()
 
 W, H = 800, 400
 screen = pygame.display.set_mode((W, H))
-pygame.display.set_caption("Динозаврик")
+pygame.display.set_caption("Geometry dash")
 clock = pygame.time.Clock()
 font = pygame.font.SysFont(None, 36)
 
@@ -125,4 +125,5 @@ while running:
     clock.tick(60)
 
 pygame.quit()
+
 exit()
