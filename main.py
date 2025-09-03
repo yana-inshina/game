@@ -35,11 +35,10 @@ def main():
 
     # масштабируемое окно без fullscreen — для веба стабильнее
     screen = pygame.display.set_mode((W, H), flags=pygame.SCALED)
-    pygame.display.set_caption("парка")
+    pygame.display.set_caption("Geometry dash")
     clock = pygame.time.Clock()
     font = pygame.font.SysFont(None, 36)
 
-    # мир
     ground = H
     player_height = 30
     player = pygame.Rect(100, ground - player_height, 30, player_height)
@@ -172,4 +171,3 @@ if __name__ == "__main__":
         # чтобы в браузере видеть ошибку в консоли
         print("Unhandled exception:", e, file=sys.stderr)
         raise
-
