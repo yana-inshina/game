@@ -35,7 +35,7 @@ def main():
 
     # масштабируемое окно без fullscreen — для веба стабильнее
     screen = pygame.display.set_mode((W, H), flags=pygame.SCALED)
-    pygame.display.set_caption("Geometry dash")
+    pygame.display.set_caption("парка")
     clock = pygame.time.Clock()
     font = pygame.font.SysFont(None, 36)
 
@@ -172,3 +172,4 @@ if __name__ == "__main__":
         # чтобы в браузере видеть ошибку в консоли
         print("Unhandled exception:", e, file=sys.stderr)
         raise
+
